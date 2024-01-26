@@ -1,0 +1,87 @@
+<html>
+  <head>
+    <title>Banking Sidebar</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      #sidebar {
+        float: left;
+        background-color: #eef8ff;
+        padding: 30px;
+        box-sizing: border-box;
+        border-right: 2px solid #ccc;
+        height: 100%;
+      }
+
+      h2 {
+        color: #333;
+      }
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      li {
+        margin-bottom: 10px;
+      }
+
+      a {
+        text-decoration: none;
+        color: #333;
+      }
+
+      a:hover {
+        color: #0066cc;
+      }
+
+      ul ul {
+        margin-left: 15px;
+      }
+    </style>
+  </head>
+
+  <body style="background-color: aliceblue">
+    <div id="sidebar">
+      <h2>Navigate</h2>
+      <ul style="font-size: larger">
+        <li>
+          <a href="main-content.html" target="mainContent">Home</a>
+          <ul>
+            <li>Transaction History</li>
+            <li>Retrieve Credentials</li>
+            <li>View Policies</li>
+            <li>View Plans</li>
+          </ul>
+        </li>
+        <li>
+          <a href="account.html" target="mainContent">Account</a>
+          <ul>
+            <li>Make Payments</li>
+            <li>Check Balance</li>
+            <li>Deposit Money</li>
+            <li>Request Loans</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <footer
+      style="
+        text-align: left;
+        padding: 10px;
+        background-color: #646060;
+        color: #fff;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      "
+    >
+      Ⓒ Copyright 2024
+    </footer>
+  </body>
+</html>
